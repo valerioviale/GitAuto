@@ -1,1 +1,6 @@
 Current working directory: /Users/valerio/Desktop/Courses/GitAuto
+[main f08ce5e] Daily commit - 2023-07-16 10:02:00
+ 2 files changed, 2 insertions(+)
+ mode change 100644 => 100755 script.log
+fatal: could not read Username for 'https://github.com': Device not configured
+Current working directory: /Users/valerio/Desktop/Courses/GitAuto
