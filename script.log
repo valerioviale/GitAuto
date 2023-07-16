@@ -8,3 +8,9 @@ Current working directory: /Users/valerio/Desktop/Courses/GitAuto
  2 files changed, 6 insertions(+)
 fatal: could not read Username for 'https://github.com': Device not configured
 Current working directory: /Users/valerio/Desktop/Courses/GitAuto
+[main 15c0d67] Daily commit - 2023-07-16 10:04:00
+ 2 files changed, 5 insertions(+)
+fatal: could not read Username for 'https://github.com': Device not configured
+/bin/sh: line 0: cd: /Users/valerio/Desktop/Courses/GitAuto/script.sh: Not a directory
+/bin/sh: line 0: cd: /Users/valerio/Desktop/Courses/GitAuto/script.sh: Not a directory
+Current working directory: /Users/valerio/Desktop/Courses/GitAuto
