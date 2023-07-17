@@ -63,10 +63,10 @@
 
 # Set the necessary environment variables
 export PATH="/usr/local/bin:$PATH"
-export HOME="/Users/elena"
+export HOME="/Users/valerio"
 
 # Change to the specified working directory
-working_dir="/Users/elena/Desktop/Courses/GitAuto"
+working_dir="/Users/valerio/Desktop/Courses/GitAuto"
 cd "$working_dir" || exit
 
 # Log the current working directory to ensure the script runs in the correct location
@@ -95,7 +95,7 @@ commit_message="Daily commit - $(date +"%Y-%m-%d %H:%M:%S")"
 					<key>inputMethod</key>
 					<integer>0</integer>
 					<key>shell</key>
-					<string>/bin/zsh</string>
+					<string>/bin/bash</string>
 					<key>source</key>
 					<string></string>
 				</dict>
@@ -204,7 +204,7 @@ commit_message="Daily commit - $(date +"%Y-%m-%d %H:%M:%S")"
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>529.000000:706.000000</string>
+				<string>450.000000:364.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
