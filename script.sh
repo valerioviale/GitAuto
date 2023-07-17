@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Change to the specified working directory
-working_dir="/Users/valerio/Desktop/Courses/GitAuto"
+working_dir="/Users/elena/Desktop/Courses/GitAuto"
 cd "$working_dir" || exit
 
 # Log the current working directory to ensure the script runs in the correct location
