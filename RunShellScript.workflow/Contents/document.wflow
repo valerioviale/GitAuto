@@ -61,6 +61,10 @@
 					<key>COMMAND_STRING</key>
 					<string>#!/bin/bash
 
+# Set the necessary environment variables
+export PATH="/usr/local/bin:$PATH"
+export HOME="/Users/elena"
+
 # Change to the specified working directory
 working_dir="/Users/elena/Desktop/Courses/GitAuto"
 cd "$working_dir" || exit
@@ -69,22 +73,22 @@ cd "$working_dir" || exit
 echo "Current working directory: $(pwd)"
 
 # Add all changes
-git add .
+/usr/bin/git add .
 
 # Check if there are changes to commit
-if git diff --quiet --exit-code; then
+if /usr/bin/git diff --quiet --exit-code; then
     # No changes, so create an empty file with the date stamp
     touch empty.txt
     echo "Date: $(date +"%Y-%m-%d %H:%M:%S")" &gt;&gt; empty.txt
-    git add empty.txt
+    /usr/bin/git add empty.txt
 fi
 
 # Commit changes with a timestamp
 commit_message="Daily commit - $(date +"%Y-%m-%d %H:%M:%S")"
-git commit -m "$commit_message"
+/usr/bin/git commit -m "$commit_message"
 
 # Push changes
-git push
+/usr/bin/git push
 </string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
@@ -121,6 +125,8 @@ git push
 				</array>
 				<key>OutputUUID</key>
 				<string>9B291D6B-27AA-4D83-815A-BD097C3D79B0</string>
+				<key>ShowWhenRun</key>
+				<false/>
 				<key>UUID</key>
 				<string>DC3C3577-B13B-4EB3-9C39-4D8997D7EB86</string>
 				<key>UnlocalizedApplications</key>
@@ -200,7 +206,7 @@ git push
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>309.000000:184.000000</string>
+				<string>309.000000:240.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
