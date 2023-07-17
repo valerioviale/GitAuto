@@ -59,7 +59,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>cat #!/bin/bash
+					<string>#!/bin/bash
 
 # Change to the specified working directory
 working_dir="/Users/elena/Desktop/Courses/GitAuto"
